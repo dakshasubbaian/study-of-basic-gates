@@ -1,9 +1,4 @@
 ### study-of-basic-gates
-**NAME**: DAKSHA SUBBAIAN
-
-**DATE**: 22-04-2025
-
-**REG NO**: 212223230036
 
 **AIM:** 
 
@@ -69,33 +64,35 @@ Y= A⊕B
 
 **PROGRAM**
 ```
-module LOGIC_GATE (a, b, c1, c2, c3, c4, c5, c6, c7);
-input a, b;
+module experim1(a,b,c1,c2,c3,c4,c5,c6,c7);
+input a,b;
 output c1,c2,c3,c4,c5,c6,c7;
-assign c1=~a;
-assign c2=a&b;
-assign c3=a|b;
-assign c4=~(a&b);
-assign c5=~(a|b);
-assign c6=a^b;
-assign c7=~(a^b);
+not g1(c1,a);
+and g2(c2,a,b);
+or g3(c3,a,b);
+nand g4(c4,a,b);
+nor g5(c5,a,b);
+xor g6(c6,a,b);
+xnor g7(c7,a,b); 
+
 endmodule
-```
+`````
+ Developed by: DAKSHA SUBBAIAN
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+RegisterNumber: 212223230036
 
-
- 
+Date:15/04/25
 **Logic symbol & Truthtable**
-![Screenshot 2025-03-19 090357](https://github.com/user-attachments/assets/b94fe119-0469-45d9-83c9-b3bc416dc365)
-
+![{7B7744B8-BE5E-490F-A2AA-E2588D920748}](https://github.com/user-attachments/assets/7036e097-1057-430e-82ef-b874ee9f725f)
 
 **RTL realization Output:** 
+![{6BB7AD10-5840-491F-805A-88A4AC254678}](https://github.com/user-attachments/assets/1ec1cf37-ed3a-4a89-9582-5ddbe146ff60)
+
+
 
 **RTL**
+![Screenshot 2025-04-22 101427](https://github.com/user-attachments/assets/5d513e4a-0e59-4036-a97f-602d8db8b75c)
 
 **Result:**
-![Screenshot 2025-03-19 092813](https://github.com/user-attachments/assets/bcb68c81-5903-4b79-9297-16e81e65e2dd)
 
-
-
+Thus the truth table of logic gates in Quartus II using Verilog programming is studied and verified.
