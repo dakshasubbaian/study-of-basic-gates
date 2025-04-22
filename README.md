@@ -81,7 +81,6 @@ endmodule
 
 RegisterNumber: 212223230036
 
-Date:15/04/25
 **Logic symbol & Truthtable**
 ![{7B7744B8-BE5E-490F-A2AA-E2588D920748}](https://github.com/user-attachments/assets/7036e097-1057-430e-82ef-b874ee9f725f)
 
