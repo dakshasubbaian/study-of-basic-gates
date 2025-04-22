@@ -1,4 +1,9 @@
 ### study-of-basic-gates
+**NAME**: DAKSHA SUBBAIAN
+
+**DATE**: 22-04-2025
+
+**REG NO**: 212223230036
 
 **AIM:** 
 
@@ -63,17 +68,34 @@ Y= A⊕B
 
 
 **PROGRAM**
+```
+module LOGIC_GATE (a, b, c1, c2, c3, c4, c5, c6, c7);
+input a, b;
+output c1,c2,c3,c4,c5,c6,c7;
+assign c1=~a;
+assign c2=a&b;
+assign c3=a|b;
+assign c4=~(a&b);
+assign c5=~(a|b);
+assign c6=a^b;
+assign c7=~(a^b);
+endmodule
+```
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+
  
 **Logic symbol & Truthtable**
+![Screenshot 2025-03-19 090357](https://github.com/user-attachments/assets/b94fe119-0469-45d9-83c9-b3bc416dc365)
+
 
 **RTL realization Output:** 
 
 **RTL**
 
 **Result:**
+![Screenshot 2025-03-19 092813](https://github.com/user-attachments/assets/bcb68c81-5903-4b79-9297-16e81e65e2dd)
+
 
 
